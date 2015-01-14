@@ -10,4 +10,4 @@ Get it going
 > gulp watch
 ```
 
-Then visit http://localhost:8080 so see what it be.
+Then visit [http://localhost:8080] so see what it be.
