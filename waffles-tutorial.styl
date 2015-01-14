@@ -17,6 +17,7 @@ body
 
 ul, li
   list-style-type none
+  margin 0
   padding 0
 
 .fa-twitter
@@ -37,7 +38,7 @@ a
   font-family codeFont
 
 .tutorial-box
-  min-height 100px
+  min-height 75px
   border-radius radiusSize
   font-weight bold
   color white
@@ -47,6 +48,13 @@ a
   & a:hover
     color offWhite
     text-decoration none
+  &.tip-box
+    background-color green
+  &.warning-box
+    background-color red
+  &.note-box
+    background-color telogicalDarkBlue
 
-.tutorial-content
+&.tutorial-content
   text-align left
+
