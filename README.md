@@ -7,7 +7,7 @@ Get it going
 
 ```
 > npm install
-> gulp watch
+> gulp build && gulp watch
 ```
 
 Then visit [http://localhost:8080] so see what it be.
