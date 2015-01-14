@@ -1,0 +1,49 @@
+body {
+  font-family: "Source Sans Pro";
+  text-align: center;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+.fa-twitter {
+  color: #00aced;
+}
+a {
+  text-decoration: none;
+}
+a:visited,
+a:link {
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.code {
+  font-family: "Source Code Pro";
+}
+.tutorial-box {
+  min-height: 100px;
+  border-radius: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #093c5c;
+}
+.tutorial-box a {
+  color: #fff;
+}
+.tutorial-box a:hover {
+  color: #ffe4b5;
+  text-decoration: none;
+}
+.tutorial-content {
+  text-align: left;
+}
