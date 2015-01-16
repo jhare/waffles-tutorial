@@ -102,21 +102,41 @@
             number was picked because it's evenly divided 2, 4, 3, and 6. It's
             most likely that your layout needs will be covered by some sum of
             these dimensions. More on that later.
+          </div>
+
+          <div class="w-12 w-v-4">
+            Each width starts with a <span class="code">w-</span> and ends with
+            the number of the size you want. A whole row may add up to 12 before
+            elements are wrapped to the next block line.
 
             <div class="w-v-4" data-gist-id="a4ff4cda987d710a81c1"></div>
 
-            <i class="fa fa-binoculars"></i> Use those browser dev tools to inspect the box model, margins, and sizes this creates!
+            <!-- this w-v_4 pushes the content below it down by setting a margin-bottom property -->
+            <div class="w-12 w-v_4">
+              <em>Use those browser dev tools to inspect the box model, margins,
+                and sizes this creates!</em>
+            </div>
 
             <!-- Notice how we don't specify pixel values here. -->
-            <div class="w-12 example-divs">
+            <!-- We are specifying w-12 to take the whole width of the container-->
+            <div class="w-12">
+              <!-- Next, we take three w-4s (adding up to 12) to divide this
+                   container into three columns -->
               <div class="w-4">
+                <i class="fa fa-binoculars"></i> <!-- don't mind this little guy -->
                 Left
               </div>
+              <!-- These three w-4 items are sitting inside of a w-12. You can
+              arbitrarily nest waffles blocks. It just keeps dividing the
+              availble width of its parent container according to the
+              proportions you specify. -->
               <div class="w-4">
                 Middle
               </div>
               <div class="w-4">
-                Right
+                This has a lot of content so you can see that the columns
+                don't overflow into each other. This makes for easy layout
+                that's proportional and consistent.
               </div>
             </div>
 
