@@ -7,6 +7,9 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="waffles-tutorial.css"/>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.js"></script>
   </head>
 
   <!-- Always give the top-most element -->
@@ -25,23 +28,34 @@
     </div>
 
     <div class="w-12 tutorial-content">
-      <div class="w-3">
+      <div class="w-2">
         &nbsp;
       </div>
-      <div class="w-6">
+      <div class="w-8">
 
         <div class="tutorial-box tip-box w-12">
+          <div class="w-fix w-1">&nbsp;</div>
           <div class="w-1 w-v-4"><i class="fa fa-thumbs-up fa-2x"></i></div>
-          <div class="w-11 w-v-4">Use the CDN version of waffles at http://cdn.jsdelivr.net/waffles/latest/waffles.min.css here's some more content taht should wrap</div>
+          <div class="w-auto w-v-5">Use the CDN version of waffles at http://cdn.jsdelivr.net/waffles/latest/waffles.min.css</div>
         </div>
 
-        <div class="w-12 w-v-4">
+        <div class="tutorial-box note-box w-12 w-v-4">
+          <div class="w-fix w-1">&nbsp;</div>
+          <div class="w-1 w-v-4"><i class="fa fa-info fa-2x"></i></div>
+          <div class="w-auto w-v-5">Use your browser's "Inspect element" tool to
+            view our source annotation and our witty comments.</div>
+        </div>
+
+        <div class="w-12 w-v-6">
+          <div class="subtitle">
+            Initializing Waffles
+          </div>
           To get started with waffles, give your body or top-most element the class of <span class="code">waffles</span>.
           Doing so resets margin, floating, and removes padding.
         </div>
 
       </div>
-      <div class="w-3">
+      <div class="w-2">
         &nbsp;
       </div>
     </div>
