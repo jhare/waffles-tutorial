@@ -12,9 +12,76 @@
     <link rel="stylesheet" href="waffles-tutorial.css"/>
   </head>
 
+  <!-- always give your top level element a class of waffles -->
   <body class="waffles">
 
-  
+    <!-- elements are given a class of "w-1" .. "w-12" to subdivide a container -->
+    <div class="w-12">
+      This takes up the whole width of the parent container.
+    </div>
+
+    <h2>Three Columns</h2>
+
+    <div class="w-4">
+      These three divs
+    </div>
+
+    <div class="w-4">
+      make three
+    </div>
+
+    <div class="w-4">
+      columns across the container
+    </div>
+
+    <!-- use a w-12 to group things -->
+    <div class="w-12">
+      <div class="w-4">
+        This is in
+      </div>
+
+      <div class="w-4">
+        a row container
+      </div>
+
+      <div class="w-4">
+        to further organize the content
+      </div>
+    </div>
+
+    <h2>Other Layouts</h2>
+    <div class="w-12">
+      <div class="w-3">
+        Left side. Maybe this is a navigation item?
+      </div>
+      <div class="w-9">
+        Your page content etc. here
+      </div>
+    </div>
+
+    <h2>Intentionally wrapping items</h2>
+    <div class="w-12">
+      Here we'll use a bunch of w-3 items to enumerate some photos. This
+      technique is useful when you have a collection you're iterating over and
+      don't want to manage what image goes into what row.<br/>
+
+      You can mix and match any of the w-1 through w-12 classes to get your
+      desired effect.
+    </div>
+    <div class="w-12">
+      <!-- Here are a bunch of w-3 elements that aren't arranged to all add up
+           to 12. When there is overflow the content is pushed to the next line. -->
+
+      <!-- I included the style width property here for clarity. We just want 
+           the image expand to the full width of the w-3 div. Don't use the
+           style property for this -->
+      <div class="w-3"><img style="width: 100%" src="http://placekitten.com/g/200/300"/></div>
+      <div class="w-3"><img style="width: 100%" src="http://placekitten.com/g/200/300"/></div>
+      <div class="w-3"><img style="width: 100%" src="http://placekitten.com/g/200/300"/></div>
+      <div class="w-3"><img style="width: 100%" src="http://placekitten.com/g/200/300"/></div>
+      <div class="w-3"><img style="width: 100%" src="http://placekitten.com/g/200/300"/></div>
+      <div class="w-3"><img style="width: 100%" src="http://placekitten.com/g/200/300"/></div>
+    </div>
   </body>
 
 </html>

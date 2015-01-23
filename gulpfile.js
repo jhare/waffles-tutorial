@@ -15,7 +15,8 @@ var options = {
 	imageFiles: './images/**/*',
 	cssConcatName: 'waffles-tutorial.css',
   javascriptConcatName: 'waffles-tutorial.js',
-  pages: '*.html',
+  pages: ['*.html',
+          'examples/*.html'],
 	distPath: './dist'
 };
 
