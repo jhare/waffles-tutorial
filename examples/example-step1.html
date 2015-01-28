@@ -15,22 +15,23 @@
   <!-- always give your top level element a class of waffles -->
   <body class="waffles">
 
+    <h2>Setting the Classes</h2>
     <!-- elements are given a class of "w-1" .. "w-12" to subdivide a container -->
-    <div class="w-12">
+    <div class="w-12 blue-four">
       This takes up the whole width of the parent container.
     </div>
 
     <h2>Three Columns</h2>
 
-    <div class="w-4">
+    <div class="w-4 blue-one">
       These three divs
     </div>
 
-    <div class="w-4">
+    <div class="w-4 blue-two">
       make three
     </div>
 
-    <div class="w-4">
+    <div class="w-4 blue-three">
       columns across the container
     </div>
 
@@ -51,11 +52,55 @@
 
     <h2>Other Layouts</h2>
     <div class="w-12">
-      <div class="w-3">
+      <div class="w-3 blue-one">
         Left side. Maybe this is a navigation item?
       </div>
-      <div class="w-9">
+      <div class="w-9 blue-two">
         Your page content etc. here
+      </div>
+    </div>
+
+    <h2>Nesting Classes</h2>
+    <div class="w-12">
+      <div class="w-6">
+        We have a container that's a w-6 that we'll subdivide below
+        <div class="w-6">
+          Here's half of the parent w-6. To the right will be six other divisions.
+        </div>
+        <div class="w-1">
+          A
+        </div>
+        <div class="w-1">
+          B
+        </div>
+        <div class="w-1">
+          C
+        </div>
+        <div class="w-1">
+          D
+        </div>
+        <div class="w-1">
+          E
+        </div>
+        <div class="w-1">
+          F
+        </div>
+      </div>
+
+      <div class="w-3">
+        <div class="w-2">
+        </div>
+        <div class="w-10">
+        </div>
+      </div>
+
+      <div class="w-3">
+        <div class="w-7">
+          use w-1 through w-12
+        </div>
+        <div class="w-5">
+          to subdivide these divs arbitrarily
+        </div>
       </div>
     </div>
 
